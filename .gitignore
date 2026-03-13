@@ -16,3 +16,4 @@ data/
 # Modèles entraînés
 notebook/models/
 "@ | Set-Content -Encoding UTF8 .gitignore
+etape projet.txt
