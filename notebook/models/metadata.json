@@ -1,0 +1,51 @@
+{
+    "date_creation": "2026-03-12 12:21:51",
+    "feature_names": [
+        "Dependents",
+        "Education",
+        "ApplicantIncome",
+        "CoapplicantIncome",
+        "LoanAmount",
+        "Loan_Amount_Term",
+        "Credit_History",
+        "TotalIncome",
+        "LoanAmountToIncome",
+        "EMI",
+        "EMIToIncome",
+        "Log_LoanAmount",
+        "Log_TotalIncome",
+        "Has_Coapplicant",
+        "Area_Semiurban",
+        "Area_Urban",
+        "Gender_Male",
+        "Married_Yes",
+        "SelfEmployed_Yes"
+    ],
+    "n_features": 19,
+    "n_train_samples": 491,
+    "n_test_samples": 123,
+    "models": {
+        "logistic_regression": {
+            "accuracy": 0.8536585365853658,
+            "precision": 0.8316831683168316,
+            "recall": 0.9882352941176471,
+            "f1_score": 0.9032258064516129,
+            "auc": 0.8631578947368422,
+            "file": "models/logistic_regression.pkl"
+        },
+        "random_forest": {
+            "accuracy": 0.8536585365853658,
+            "precision": 0.8602150537634409,
+            "recall": 0.9411764705882353,
+            "f1_score": 0.898876404494382,
+            "auc": 0.8544891640866874,
+            "file": "models/random_forest.pkl",
+            "n_estimators": 100,
+            "max_depth": 10
+        }
+    },
+    "scaler": {
+        "type": "StandardScaler",
+        "file": "models/scaler.pkl"
+    }
+}
