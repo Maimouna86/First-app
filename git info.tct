@@ -1,0 +1,55 @@
+✅ ÉTAPE 1 — Vérifier que Git est installé
+
+git --version
+
+✅ ÉTAPE 2 — Aller à la racine de TON projet
+
+cd nom_projet
+
+✅ ÉTAPE 3 — Initialiser Git
+
+git init
+
+✅ ÉTAPE 4 — Configurer ton identité 
+
+git config --global user.name "Maïmouna Traoré Fane"
+git config --global user.email "miissyy8@gmail.com"
+
+✅ ÉTAPE 5 — Verifier configuration
+
+git config --global --list
+
+✅ ÉTAPE 6 — Créer un fichier 
+
+.gitignore propre
+
+met ça a l'intérieur:
+
+@"
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+.ipynb_checkpoints/
+.venv
+nom de ton environnement
+data/
+notebook/models/
+"@ | Set-Content -Encoding UTF8 .gitignore
+
+✅ ÉTAPE 7 — Ajouter TOUS les fichiers suivis par Git ou specifique 
+
+git add .
+
+or 
+
+git add app.py
+git add requirements.tx
+
+✅ ÉTAPE 7 — Faire ton premier commit
+
+git commit -m "Initial commit: ajout de l'application Streamlit"
+
+✅ ÉTAPE 8 — Verifier l'historique
+
+git log
