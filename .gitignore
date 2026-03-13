@@ -1,0 +1,18 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pkl
+*.png
+*.csv
+.env
+.venv/
+.streamlit/
+# Cache Streamlit
+.streamlit/
+# Données locales (optionnel si tu veux versionner un petit CSV)
+data/
+# Modèles entraînés
+notebook/models/
+"@ | Set-Content -Encoding UTF8 .gitignore
