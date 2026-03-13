@@ -12,7 +12,7 @@
 
 ✅ ÉTAPE 6 — bien installer et configurer git
 
-✅ ÉTAPE 8 — personnal acces token sur GITHUB: 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
+✅ ÉTAPE 8 — personnal acces token sur GITHUB:  
 
 ✅ ÉTAPE 9 - creer un repository : app loan  streammlit
 
